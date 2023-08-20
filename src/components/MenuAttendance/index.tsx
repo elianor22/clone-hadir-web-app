@@ -20,6 +20,9 @@ const MenuAttendance: React.FC<IMenuAttendance> = ({ menu }: IMenuAttendance): J
                     alignItems: 'center',
                     flexDirection: 'column',
                   }}
+                  style={{
+                    borderRadius: '10px',
+                  }}
                 >
                   <Icon
                     variant={m.icon}
